@@ -1,0 +1,100 @@
+firebase login<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>khotify the clone </title>
+</head>
+
+<body>
+    <header>
+        <div class="container flex bg-black">
+            <div class="left  m-1 rounded m-1 p-1 ">
+                <div class="home  m-1 rounded m-1 p-1">
+                    <div class="logo">
+                        <img src="svg/logo.svg" alt="logo">
+                    </div>
+                    <ul>
+                        <li>
+                            <img src="svg/home.svg" class="inverted" alt="home">
+                            <p>Home</p>
+                        </li>
+                        <li>
+                            <img src="svg/search.svg" class="inverted" alt="search">
+                            <p>Search</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+                <div class="right">
+                    <nav class="navigation  m-1 p-1 rounded">
+                        <ul>
+                            <li><a href="htmlwaste/l.html" class="login" target="_blank">Login</a></li>
+                            <li><a href="htmlwaste/s.html" class="signup" target="_blank">Signup</a></li>
+                        </ul>
+                    </nav>
+                </div>  
+        </div>
+        
+    </header>
+    <main>
+        <div class="maincontainer  flex">
+        <div class="lib">
+            <div class="library left bg-gray rounded m-1">
+                <h1>Your Library</h1>
+            </div>
+            <div class="footer left bg-black rounded m-1">
+                <div class="footer-links">
+                    <a href="https://www.spotify.com/in-en/legal/" target="_blank">Legal</a>
+                    <a href="https://www.spotify.com/in-en/safetyandprivacy/" target="_blank">Safety & Privacy Center</a>
+                    <a href="https://www.spotify.com/in-en/legal/privacy-policy/" target="_blank">Privacy Policy</a>
+                    <a href="https://www.spotify.com/in-en/legal/cookies-policy/" target="_blank">Cookies</a>
+                    <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" target="_blank">About Ads</a>
+                    <a href="https://www.spotify.com/in-en/accessibility/" target="_blank">Accessibility</a>
+                </div>
+            </div>
+        </div>
+        <div class=" center  rounded right bg-gray m-1 p-1">
+            <div class=" playlist right">
+            <h1>Playlists</h1>
+            <div class="cardcontainer">
+                <div class="card">
+                    <img src="https://i.scdn.co/image/ab67616d00001e02786a26c64ff6b997a9552910" alt="photo">
+                    <h2>playlist 1</h2>
+                    <p>description</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </main>
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAl342htlzSpT9Wt8Q22mC5VA9QtUBHdc8",
+    authDomain: "beat-nest.firebaseapp.com",
+    projectId: "beat-nest",
+    storageBucket: "beat-nest.firebasestorage.app",
+    messagingSenderId: "895422344151",
+    appId: "1:895422344151:web:e526e27606b819ebeeb992",
+    measurementId: "G-11DWND498B"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+</body>
+
+</html>
